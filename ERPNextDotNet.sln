@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ERPNextDotNet", "src\ERPNex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERPNextDotNet.Core", "src\ERPNextDotNet.Core\ERPNextDotNet.Core.csproj", "{A0FF6A09-612B-480C-90C5-F50228C1C923}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{001C05B2-6D02-4120-BBDE-F75B47CD9790}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERPNextDotNet.Tests", "src\tests\ERPNextDotNet.Tests\ERPNextDotNet.Tests.csproj", "{DA3246DC-E46B-4416-AE54-B6FC81E03F55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,10 @@ Global
 		{A0FF6A09-612B-480C-90C5-F50228C1C923}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0FF6A09-612B-480C-90C5-F50228C1C923}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0FF6A09-612B-480C-90C5-F50228C1C923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA3246DC-E46B-4416-AE54-B6FC81E03F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3246DC-E46B-4416-AE54-B6FC81E03F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3246DC-E46B-4416-AE54-B6FC81E03F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3246DC-E46B-4416-AE54-B6FC81E03F55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0381A263-80C6-4AB8-929E-7F463A11402D} = {DA708337-CCBF-44A2-88DB-849D64A87FC9}
 		{A0FF6A09-612B-480C-90C5-F50228C1C923} = {DA708337-CCBF-44A2-88DB-849D64A87FC9}
+		{DA3246DC-E46B-4416-AE54-B6FC81E03F55} = {001C05B2-6D02-4120-BBDE-F75B47CD9790}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3B7FEF65-BF74-42F1-B4B0-BC0342C07E97}
