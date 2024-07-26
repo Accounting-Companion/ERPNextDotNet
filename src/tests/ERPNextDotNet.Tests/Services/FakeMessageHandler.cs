@@ -7,13 +7,9 @@ using System.Threading.Tasks;
 namespace ERPNextDotNet.Tests.Services;
 public class FakeMessageHandler : HttpMessageHandler
 {
-    private static FakeMessageHandler _fakeMessageHandler;
-    private static string? _respJson;
+   
+    private  string? _respJson;
 
-    private FakeMessageHandler()
-    {
-
-    }
 
     protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
     {
@@ -27,10 +23,10 @@ public class FakeMessageHandler : HttpMessageHandler
         }
     }
 
-    public static FakeMessageHandler Instance { get => _fakeMessageHandler ??= new(); }
+    
 
 
-    public static void SetResponseJson(string json)
+    public  void SetResponseJson(string json)
     {
         _respJson = json;
     }

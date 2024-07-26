@@ -7,7 +7,7 @@ using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace ERPNextDotNet.Core.Models.Accounting;
-public class Accounts : ERPNextBaseModel
+public class Account : ERPNextBaseModel
 {
     public string AccountCurrency { get; set; }
 
